@@ -1,12 +1,8 @@
-import './App.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+import "./App.css";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Home from "./components/Home";
-import Projects from "./components/Projects;"
+import Projects from "./components/Projects";
 import About from "./components/About";
 import Contact from "./components/Contact";
 
