@@ -13,23 +13,32 @@ function Home() {
       </style>
 
       <div className="navbar">
+        <header class="header">
         <h1>Grégory JUGE</h1>
-        <a href="#wrap" id="open">
-          <a>
-            <Projects />
-          </a>
-          <a>
-            <About />
-          </a>
-          <a>
-            <Contact />
-          </a>
-        </a>
+          
+          <input class="menu-btn" type="checkbox" id="menu-btn" />
+          <label class="menu-icon" for="menu-btn">
+            <span class="navicon"></span>
+          </label>
+          <ul class="menu">
+            
+            <li>
+              <a href="projects">Projets</a>
+            </li>
+            <li>
+              <a href="about">A Propos</a>
+            </li>
+            <li>
+              <a href="contact">Contact</a>
+            </li>
+          </ul>
+        </header>
+
       </div>
       <div className="body-container">
-          <h2>Développeur FullStack</h2>
-          <h3>React / Node.js </h3>
-          <div className="localisation-icon"> <h4> 44° 50' 16.04"N 0°34'45.048"W</h4></div>
+        <h2>Développeur FullStack</h2>
+        <h3>React / Node.js </h3>
+        <h4> 44° 50' 16.04"N 0°34'45.048"W</h4>
       </div>
     </div>
   );
