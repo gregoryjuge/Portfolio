@@ -3,7 +3,9 @@
   /* text-align: center; */
   background-color: #658e77;
   min-height: 100vh;
-  
+  overflow-x: hidden
 }
+  
+
 
 
