@@ -1,14 +1,13 @@
-/* GENERAL */
+/* GENERAL */  /* GENERAL */  /* GENERAL */  /* GENERAL */
 
 .home-page{
   overflow-x: hidden
 }
 
 
-/* NAV */
+/* NAV */  /* NAV */  /* NAV */  /* NAV */  /* NAV */
 
 .navbar {
-  
   
   font-family: 'Rock Salt', cursive;
   color: ne;
@@ -22,20 +21,17 @@
   user-select: none;
   white-space: nowrap;
   filter: blur(0.0010em);
-  padding: 20px 30px;
+  padding: 12px 30px;
 }
 
 
 
 
-/* header */
+/* header */  /* header */  /* header */  /* header */  /* header */
 
 .header {
   background-color: #658e77;
   
-  
-
- 
 }
 
 .header ul {
@@ -48,7 +44,6 @@
 }
 
 
-
 .header li a {
   display: block;
   padding: 20px 20px;
@@ -58,17 +53,12 @@
 }
 
 
-
-
-
-
-/* menu */
+/* menu */  /* menu */  /* menu */  /* menu */
 
 .header .menu {
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
-  
 }
 
 /* menu icon */
@@ -80,6 +70,7 @@
   padding: 28px 20px;
   position: relative;
   user-select: none;
+  
 }
 
 .header .menu-icon .navicon {
@@ -90,6 +81,7 @@
   transition: background .0.1s ease-out; 
   width: 18px;
 }
+
 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
@@ -157,7 +149,7 @@
 }
 
 
-/* BODY */
+/* BODY */  /* BODY */  /* BODY */  /* BODY */  /* BODY */
 
 .body-container{
   display: flex;
@@ -165,11 +157,36 @@
   flex-direction: column;
   font-family: 'Rock Salt', cursive;
   color: wheat;
-  margin: 10em;
+  margin: 8em;
   
+}
+
+/* FOOTER */  /* FOOTER */  /* FOOTER */  /* FOOTER */
+
+.footer-container{
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  padding: 4px 0px;
 }
 
 
 
+.icons-footer{
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 2em;
+  width: 20%;
+} 
 
 
+
+.logo-rs {
+
+width: 25px; 
+height: auto;
+margin: 0.9em; 
+  
+}
