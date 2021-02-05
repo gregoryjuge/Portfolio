@@ -13,7 +13,7 @@ function Contact() {
           id="name"
           placeholder="Noms & Prénoms"
           name="name"
-          value=""
+          // value=""
           required
         />
         <input
@@ -22,13 +22,14 @@ function Contact() {
           id="email"
           placeholder="E-mail"
           name="email"
-          value=""
+          // value=""
           required
         />
         <textarea
           class="form-control"
+          className="form-control-text"
           rows="10"
-          placeholder="Description de votre projet"
+          placeholder="Description de votre projet" 
           name="message"
           required
         ></textarea>
