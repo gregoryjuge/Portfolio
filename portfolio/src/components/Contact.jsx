@@ -4,7 +4,7 @@ import "../css/contact.css";
 function Contact() {
   return (
     <section id="contact">
-      <h1 class="section-header">CONTACT</h1>
+      <h1 class="section-header">Contact</h1>
 
       <div class="button_cont" align="center">
         <a
