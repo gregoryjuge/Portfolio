@@ -1,3 +1,5 @@
+/*header*/
+
 h2 {
 font: 300 60px 'Oswald', sans-serif;
 color: wheat;
@@ -7,22 +9,65 @@ letter-spacing: 6px;
   
 }
 
+/*body*/
+.global-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-evenly;
+}
+
+/* generic container info*/
+.project-info{
+  padding-left: 25px;
+}
+
+/*timara*/ /*timara*/ /*timara*/ /*timara*/
 .container-timara {
     display: flex;
     flex-direction: column;
     color: wheat;
     width: 300px;
     padding: 60px;
-    /* font: 300 60px 'Oswald', sans-serif; */
-  
-  /* 
-  text-align: center; */
-  
-  letter-spacing: 6px;
+    letter-spacing: 6px;
     
 }
 
 .picture-timara {
-    width: 240px;
+    width: 100%;
+  
     
+}
+
+/*mysterium*/ /*mysterium*/ /*mysterium*/ /*mysterium*/ 
+
+.container-mysterium {
+  display: flex;
+  flex-direction: column;
+  color: wheat;
+  width: 300px;
+  padding: 60px;
+  letter-spacing: 6px;
+  
+}
+
+.picture-mysterium {
+  width: 100%;
+  
+}
+
+/*neurolab*/  /*neurolab*/  /*neurolab*/  /*neurolab*/
+
+.container-neurolab {
+  display: flex;
+  flex-direction: column;
+  color: wheat;
+  width: 300px;
+  padding: 60px;
+  letter-spacing: 6px;
+  
+}
+
+.picture-neurolab {
+  width: 100%;
+  
 }
