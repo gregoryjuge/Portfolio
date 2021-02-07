@@ -1,4 +1,13 @@
 /* GENERAL */  /* GENERAL */  /* GENERAL */  /* GENERAL */
+.home-title {
+  letter-spacing: 6px;
+  font-family: 'Rock Salt', cursive;
+  color: wheat;
+  font-size: small;
+  padding: 12px 30px;
+  
+
+}
 
 .home-page{
   overflow-x: hidden
@@ -8,12 +17,9 @@
 /* NAV */  /* NAV */  /* NAV */  /* NAV */  /* NAV */
 
 .navbar {
-  
-  font-family: 'Rock Salt', cursive;
-  color: ne;
+  font: 300 60px 'Oswald', sans-serif;
   background-color: #658e77;
-  font-size: calc(10px + 0.1vw);
-  font-weight: 700;
+  font-size: calc(15px + 0.1vw);
   color: wheat;
   letter-spacing: 0.02em;
   text-transform: uppercase;
@@ -156,9 +162,11 @@
   text-align: center;
   flex-direction: column;
   letter-spacing: 8px;
-  font-family: 'Rock Salt', cursive;
+  margin: 7em;
+  font: 300 60px 'Oswald', sans-serif;
+  background-color: #658e77;
+  font-size: calc(18px + 0.1vw);
   color: wheat;
-  margin: 8em;
   
 }
 

@@ -49,7 +49,7 @@ function Contact() {
           <a
             class="button icon-send"
             href=""
-            target="_blank"
+            target=""
             rel="nofollow noopener"
           >
             ENVOYER
