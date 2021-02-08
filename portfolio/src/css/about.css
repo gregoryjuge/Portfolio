@@ -1,0 +1,65 @@
+/*About global*/
+
+.about{
+    margin-bottom: 50px;
+}
+
+/*About title*/
+
+.about-title{
+    margin-bottom: 100px;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+/*way*/
+.picture-way {
+    width: 90%;
+    
+}
+
+
+/*language*/
+
+.languages-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.language-title{
+    color: wheat;
+    letter-spacing: 6px;
+    margin: 80px
+    
+}
+
+.picture-language{
+    width: 40%;
+}
+
+/*framework*/
+
+
+.frameworks-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.frameworks-title{
+    color: wheat;
+    letter-spacing: 6px;
+    margin: 80px
+    
+
+}
+.picture-frameworks{
+    width: 40%;
+}
