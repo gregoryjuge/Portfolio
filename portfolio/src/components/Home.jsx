@@ -22,13 +22,13 @@ function Home() {
           </label>
           <ul class="menu">
             <li>
-              <a href="projects">Projets</a>
+              <a href="projects">_ Projets</a>
             </li>
             <li>
-              <a href="about">Quel est mon parcours ?</a>
+              <a href="about">_ Parcours</a>
             </li>
             <li>
-              <a href="contact">Contact</a>
+              <a href="contact">_ Contact</a>
             </li>
           </ul>
         </header>

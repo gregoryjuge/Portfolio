@@ -2,12 +2,12 @@ import React from "react";
 import "../css/projects.css";
 import timara from "../css/images/timara.png";
 import mysterium from "../css/images/mysterium.png";
-import neurolab from "../css/images/neurolab.png"
+import neurolab from "../css/images/neurolab.png";
 
 function Projects() {
   return (
     <div className="projectspage">
-      <h2>Projets</h2>
+      <h2>_ projets</h2>
       <div class="button_cont" align="center">
         <a
           class="button-home"
@@ -63,16 +63,15 @@ function Projects() {
             // href=""
             // target="blank"
           >
-            <img
-              class="picture-neurolab"
-              src={neurolab}
-              alt="neurolab"
-            ></img>
+            <img class="picture-neurolab" src={neurolab} alt="neurolab"></img>
           </a>
           <div class="project-info">
             <h3 class="project-title">Neurolab</h3>
             <p>Projet d'équipe en méthode Scrum</p>
-            <p>Production d'un Dashboard d'expérimentations pour professeurs et étudiants</p>
+            <p>
+              Production d'un Dashboard d'expérimentations pour professeurs et
+              étudiants
+            </p>
             <p>REACT NODEJS REDUX GIT/GITHUB</p>
           </div>
         </div>
