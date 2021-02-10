@@ -15,7 +15,7 @@ function Projects() {
           // target="_blank"
           // rel="nofollow noopener"
         >
-          HOME
+          accueil
         </a>
       </div>
       <div className="global-container">

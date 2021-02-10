@@ -16,7 +16,7 @@ function About() {
             // target="_blank"
             // rel="nofollow noopener"
           >
-            HOME
+            accueil
           </a>
         </div>
       </div>
