@@ -1,11 +1,16 @@
 /* GENERAL */  /* GENERAL */  /* GENERAL */  /* GENERAL */
 .home-title {
-  letter-spacing: 8px;
-  font-family: 'Rock Salt', cursive;
+  letter-spacing: 0.20em;
+  font-family: 'Rock Salt'; 
+  /* font-family: 'Roboto', sans-serif;  */
+  
   color: wheat;
+  
   font-size: small;
   
 }
+
+
 
 h1{
   text-shadow: black;
@@ -100,7 +105,7 @@ transition: all 0.7s ease 0s;
   display: block;
   height: 2px;
   position: relative;
-  transition: background .0.1s ease-out; 
+  transition: all .0.1s ease-out; 
   width: 18px;
 }
 
@@ -110,6 +115,7 @@ transition: all 0.7s ease 0s;
   background: #333;
   content: '';
   display: block;
+  
   height: 100%;
   position: absolute;
   transition: all .0.1s ease-out;
@@ -134,22 +140,22 @@ transition: all 0.7s ease 0s;
   max-height: 240px;
 }
 
-.header .menu-btn:checked ~ .menu-icon .navicon {
+/* .header .menu-btn:checked ~ .menu-icon .navicon {
   background: transparent;
-}
+} */
 
-.header .menu-btn:checked ~ .menu-icon .navicon:before {
+/* .header .menu-btn:checked ~ .menu-icon .navicon:before {
   transform: rotate(-45deg);
-}
+} */
 
-.header .menu-btn:checked ~ .menu-icon .navicon:after {
+/* .header .menu-btn:checked ~ .menu-icon .navicon:after {
   transform: rotate(45deg);
-}
+} */
 
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+/* .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
-}
+} */
 
 /* 48em = 768px */
 
