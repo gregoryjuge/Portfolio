@@ -43,7 +43,7 @@ function Home() {
           <a href="https://github.com/gregoryjuge" target="_blank">
             <img
               class="logo-rs"
-              src="https://www.flaticon.com/svg/vstatic/svg/1051/1051377.svg?token=exp=1613731372~hmac=30a3b2bec5bbd52d7d76a18d8f616444"
+              src="https://www.flaticon.com/svg/vstatic/svg/1322/1322053.svg?token=exp=1614156435~hmac=fd8c80b1e819973109d97c6f6491608e"
             />
           </a>
 
