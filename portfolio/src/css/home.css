@@ -1,12 +1,13 @@
 /* GENERAL */  /* GENERAL */  /* GENERAL */  /* GENERAL */
 .home-title {
   letter-spacing: 0.20em;
-  font-family: 'Rock Salt'; 
-  /* font-family: 'Roboto', sans-serif;  */
-  
+  font-family: 'Snippet'; 
   color: wheat;
-  
   font-size: small;
+ 
+  
+
+  
   
 }
 
@@ -16,18 +17,10 @@ h1{
   text-shadow: black;
 }
 
-/* .element {
-  align-items: center;
-  background-color: #658e77;
-  box-shadow: 
-    12px 12px 16px 0 rgba(0, 0, 0, 0.25),
-    -px -8px 12px 0 rgba(255, 255, 255, 0.3);
-  border-radius: 1000px;
-  
-} */
+
 .home-page{
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap; 
   justify-content: space-around;
   overflow-x: hidden
   
@@ -182,7 +175,8 @@ transition: all 0.7s ease 0s;
 .body-container{
   display: flex;
   text-align: center;
-  flex-direction: column;
+  justify-content: center;
+  /* flex-direction: column; */
   flex-wrap: wrap;
   letter-spacing: 8px;
   margin: 7em;
