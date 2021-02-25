@@ -22,7 +22,8 @@ h1{
   display: flex;
   flex-wrap: wrap; 
   justify-content: space-around;
-  overflow-x: hidden
+  overflow-x: hidden;
+  min-height: 100vh;
   
 }
 
@@ -179,7 +180,7 @@ transition: all 0.7s ease 0s;
   /* flex-direction: column; */
   flex-wrap: wrap;
   letter-spacing: 8px;
-  margin: 7em;
+  margin: 9em;
   font: 300 60px 'Oswald', sans-serif;
   background-color: #658e77;
   font-size: calc(18px + 0.1vw);
@@ -193,7 +194,7 @@ transition: all 0.7s ease 0s;
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  padding: 4px 0px;
+  /* padding: 50px 0px; */
 }
 
 
