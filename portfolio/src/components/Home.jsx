@@ -7,12 +7,12 @@ import Contact from "./Contact";
 function Home() {
   return (
     <div className="home-page">
-      <style>
+      {/* <style>
         @import
-        url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-      </style>
+        url('');
+      </style> */}
       <div className="home-title">
-        <h1>Grégory JUGE</h1>
+        <h1>Gregory JUGE</h1>
       </div>
       <div className="navbar">
         <header class="header">
@@ -34,9 +34,9 @@ function Home() {
         </header>
       </div>
       <div className="body-container">
-        <h3>Développeur FullStack</h3>
-        <h3>React / Node.js </h3>
-        <h4> 44° 50' 16.04"N 0°34'45.048"W</h4>
+        <h1>Développeur FullStack</h1>
+        <h3>React / Node.js</h3>
+        <h3>44° 50' 16.04"N 0°34'45.048"W</h3>
       </div>
       <div className="footer-container">
         <div class="icons-footer">
