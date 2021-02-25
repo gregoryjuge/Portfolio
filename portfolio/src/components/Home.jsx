@@ -35,7 +35,7 @@ function Home() {
       </div>
       <div className="body-container">
         <h1>Développeur FullStack</h1>
-        <h3>React / Node.js</h3>
+        <h3>(React / Node.js)</h3>
         <h3>44° 50' 16.04"N 0°34'45.048"W</h3>
       </div>
       <div className="footer-container">
