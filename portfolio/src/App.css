@@ -2,8 +2,9 @@
 .App {
   /* text-align: center; */
   background-color: #2C666E;
-  min-height: 100vh;
+  min-height: 100vh; 
   overflow-x: hidden
+  
 }
   
 
