@@ -30,8 +30,9 @@ h1{
 /* NAV */  /* NAV */  /* NAV */  /* NAV */  /* NAV */
 
 .navbar {
-  font: 300 60px 'Oswald', sans-serif;
-  font-size: calc(15px + 0.1vw);
+  /* font: 300 60px 'Oswald', sans-serif; */
+  font-family: 'Poiret One';
+  font-size: calc(18px + 0.1vw);
   color: wheat;
   letter-spacing: 0.02em;
   text-transform: uppercase;
@@ -45,7 +46,7 @@ h1{
 color: #404040 !important;
 background-color: #304a40;
 background: none;
-transition: all 0.7s ease 0s;
+transition: all 0.3s ease 0s;
 }
 
 
@@ -79,15 +80,14 @@ transition: all 0.7s ease 0s;
 
 /* menu icon */
 
-.header .menu-icon {
-  /* cursor: pointer;
-  display: inline-block; */
-  /* float: right; */
-  /* padding: 0px 0px; */
-  /* position: relative; */
-  /* user-select: none; */
-  
-}
+/* .header .menu-icon {
+  cursor: pointer;
+  display: inline-block; 
+  float: right; 
+  padding: 0px 0px;
+  position: relative;
+  user-select: none;
+} */
 
 .header .menu-icon .navicon {
   background: #333;
@@ -99,17 +99,17 @@ transition: all 0.7s ease 0s;
 }
 
 
-/* .header .menu-icon .navicon:before,
+.header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
   background: #333;
   content: '';
   display: block;
   
   height: 100%;
-  /* position: absolute; */
-  /* transition: all .0.1s ease-out;
+  position: absolute; 
+  transition: all .0.1s ease-out;
   width: 100%;
-} */ 
+} 
 
 .header .menu-icon .navicon:before {
   top: 5px;
@@ -160,7 +160,9 @@ transition: all 0.7s ease 0s;
   letter-spacing: 8px;
   margin-top: 4em; 
   margin-bottom: 4em;
-  font: 300 60px 'Oswald', sans-serif;
+  /* font: 300 60px 'Oswald', sans-serif; */
+  font-family: 'Poiret One'; 
+
   background-color: #2C666E;
   font-size: calc(18px + 0.1vw);
   color: wheat;

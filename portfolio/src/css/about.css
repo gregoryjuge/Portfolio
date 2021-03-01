@@ -38,12 +38,13 @@
 .language-title{
     color: wheat;
     letter-spacing: 6px;
-    margin: 80px
-    
+    margin: 80px;
+    font-family: 'Poiret One';
 }
 
 .picture-language{
     width: 40%;
+    
 }
 
 /*framework*/
@@ -58,7 +59,8 @@
 .frameworks-title{
     color: wheat;
     letter-spacing: 6px;
-    margin: 80px
+    margin: 80px;
+    font-family: 'Poiret One';
     
 
 }
