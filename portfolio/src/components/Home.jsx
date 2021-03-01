@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/home.css";
+
 import Projects from "./Projects";
 import About from "./About";
 import Contact from "./Contact";
@@ -11,27 +12,29 @@ function Home() {
         @import
         url('');
       </style> */}
-      <div className="home-title">
-        <h1>Gregory JUGE</h1>
-      </div>
-      <div className="navbar">
-        <header class="header">
-          <input class="menu-btn" type="checkbox" id="menu-btn" />
-          <label class="menu-icon" for="menu-btn">
-            <span class="navicon"></span>
-          </label>
-          <ul class="menu">
-            <li>
-              <a href="projects">_ Projets</a>
-            </li>
-            <li>
-              <a href="about">_ Parcours</a>
-            </li>
-            <li>
-              <a href="contact">_ Contact</a>
-            </li>
-          </ul>
-        </header>
+      <div className="header">
+        <div className="home-title">
+          <h1>Gregory JUGE</h1>
+        </div>
+        <div className="navbar">
+          <header class="header">
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn" >
+              <span class="navicon"></span>
+            </label>
+            <ul class="menu">
+              <li>
+                <a href="projects">_ Projets</a>
+              </li>
+              <li>
+                <a href="about">_ Parcours</a>
+              </li>
+              <li>
+                <a href="contact">_ Contact</a>
+              </li>
+            </ul>
+          </header>
+        </div>
       </div>
       <div className="body-container">
         <h1>Développeur FullStack</h1>
@@ -43,7 +46,7 @@ function Home() {
           <a href="https://github.com/gregoryjuge" target="_blank">
             <img
               class="logo-rs"
-              src="https://www.flaticon.com/svg/vstatic/svg/1322/1322053.svg?token=exp=1614156435~hmac=fd8c80b1e819973109d97c6f6491608e"
+              src="https://www.flaticon.com/svg/vstatic/svg/25/25231.svg?token=exp=1614608404~hmac=63833289e5b90fd534105483c79641f8"
             />
           </a>
 

@@ -1,14 +1,10 @@
 /* GENERAL */  /* GENERAL */  /* GENERAL */  /* GENERAL */
 .home-title {
+  
   letter-spacing: 0.20em;
   font-family: 'Snippet'; 
   color: wheat;
   font-size: small;
- 
-  
-
-  
-  
 }
 
 
@@ -17,13 +13,16 @@ h1{
   text-shadow: black;
 }
 
-
 .home-page{
+  min-height: 100vh;
+  margin: 2em;
+}
+.header{
   display: flex;
   flex-wrap: wrap; 
   justify-content: space-around;
   overflow-x: hidden;
-  min-height: 100vh;
+  
   
 }
 
@@ -51,10 +50,6 @@ transition: all 0.7s ease 0s;
 
 
 
-
-/* header */  /* header */  /* header */  /* header */  /* header */
-
-
 .header ul {
   margin: 0;
   padding: 0;
@@ -79,18 +74,18 @@ transition: all 0.7s ease 0s;
 .header .menu {
   clear: both;
   max-height: 0;
-  transition: max-height .2s ease-out;
+  transition: max-height .4s ease-out;
 }
 
 /* menu icon */
 
 .header .menu-icon {
-  cursor: pointer;
-  display: inline-block;
-  float: right;
-  padding: 0px 0px;
-  position: relative;
-  user-select: none;
+  /* cursor: pointer;
+  display: inline-block; */
+  /* float: right; */
+  /* padding: 0px 0px; */
+  /* position: relative; */
+  /* user-select: none; */
   
 }
 
@@ -104,17 +99,17 @@ transition: all 0.7s ease 0s;
 }
 
 
-.header .menu-icon .navicon:before,
+/* .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
   background: #333;
   content: '';
   display: block;
   
   height: 100%;
-  position: absolute;
-  transition: all .0.1s ease-out;
+  /* position: absolute; */
+  /* transition: all .0.1s ease-out;
   width: 100%;
-}
+} */ 
 
 .header .menu-icon .navicon:before {
   top: 5px;
@@ -134,24 +129,7 @@ transition: all 0.7s ease 0s;
   max-height: 240px;
 }
 
-/* .header .menu-btn:checked ~ .menu-icon .navicon {
-  background: transparent;
-} */
 
-/* .header .menu-btn:checked ~ .menu-icon .navicon:before {
-  transform: rotate(-45deg);
-} */
-
-/* .header .menu-btn:checked ~ .menu-icon .navicon:after {
-  transform: rotate(45deg);
-} */
-
-/* .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
-.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
-  top: 0;
-} */
-
-/* 48em = 768px */
 
 @media (min-width: 48em) {
   .header li {
@@ -177,10 +155,11 @@ transition: all 0.7s ease 0s;
   display: flex;
   text-align: center;
   justify-content: center;
-  /* flex-direction: column; */
+  flex-direction: column;
   flex-wrap: wrap;
   letter-spacing: 8px;
-  margin: 9em;
+  margin-top: 4em; 
+  margin-bottom: 4em;
   font: 300 60px 'Oswald', sans-serif;
   background-color: #2C666E;
   font-size: calc(18px + 0.1vw);
