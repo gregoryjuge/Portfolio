@@ -98,18 +98,17 @@ transition: all 0.3s ease 0s;
   width: 18px;
 }
 
-
+/* 
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
   background: #333;
   content: '';
   display: block;
-  
   height: 100%;
   position: absolute; 
   transition: all .0.1s ease-out;
-  width: 100%;
-} 
+  width: 100%; 
+} */
 
 .header .menu-icon .navicon:before {
   top: 5px;
@@ -175,7 +174,11 @@ transition: all 0.3s ease 0s;
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  /* padding: 50px 0px; */
+  position: absolute;
+  bottom: 0;
+  right: 1rem;
+  bottom: 1rem;
+  
 }
 
 

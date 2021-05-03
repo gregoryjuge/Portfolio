@@ -1,5 +1,8 @@
 import React from "react";
 import "../css/home.css";
+import github from "../css/images/github.png";
+import linkedin from "../css/images/linkedin.png";
+import Menu from "./Menu";
 
 import Projects from "./Projects";
 import About from "./About";
@@ -19,8 +22,20 @@ function Home() {
         <div className="navbar">
           <header class="header">
             <input class="menu-btn" type="checkbox" id="menu-btn" />
-            <label class="menu-icon" for="menu-btn" >
-              <span class="navicon"></span>
+            <label class="menu-icon" for="menu-btn">
+              <Menu />
+              
+              {/* <span class="navicon">
+                
+                
+                
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+</svg>
+
+
+
+              </span> */}
             </label>
             <ul class="menu">
               <li>
@@ -46,7 +61,7 @@ function Home() {
           <a href="https://github.com/gregoryjuge" target="_blank">
             <img
               class="logo-rs"
-              src="https://www.flaticon.com/svg/vstatic/svg/25/25231.svg?token=exp=1614608404~hmac=63833289e5b90fd534105483c79641f8"
+              src={github}
             />
           </a>
 
@@ -56,7 +71,7 @@ function Home() {
           >
             <img
               class="logo-rs"
-              src="https://www.flaticon.com/premium-icon/icons/svg/665/665212.svg"
+              src={linkedin}
             />
           </a>
         </div>
